@@ -9,7 +9,7 @@ Installation:
 
     pip install GEOparse
 
-[[Usage](https://geoparse.readthedocs.io/en/latest/usage.html)]:
+[[Usage:](https://geoparse.readthedocs.io/en/latest/usage.html)]
 
 ```python
 gse = GEOparse.get_GEO(geo="GSE1563", destdir="./")
@@ -22,6 +22,8 @@ gse.gpls.items()  # pairs of `gpl_name` and `gpl`
 - `GSE` (Series) is a record that summarizes whole study including samples and platforms
     - `GPL` (Platform) contains mappings from probe IDs to RefSeq IDs
     - `GSM` (Sample) contains information about the conditions and preparation of a Sample
+
+<div style="text-align:center"><img src='img/geo_terms.jpg' href='http://slideplayer.com/slide/4814436/' width=300></div>
 
 ## Methods
 - Quantile Normalization [[wiki](https://en.wikipedia.org/wiki/Quantile_normalization)] [[machinelearning.ru](http://www.machinelearning.ru/wiki/index.php?title=Нормализация_ДНК-микрочипов)]
