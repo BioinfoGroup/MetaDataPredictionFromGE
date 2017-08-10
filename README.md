@@ -23,7 +23,8 @@ gse.gpls.items()  # pairs of `gpl_name` and `gpl`
     - `GPL` (Platform) contains mappings from probe IDs to RefSeq IDs
     - `GSM` (Sample) contains information about the conditions and preparation of a Sample
 
-<div style="text-align:center"><img src='img/geo_terms.jpg' href='http://slideplayer.com/slide/4814436/' width=300></div>
+<div style="text-align:center"><img src='img/geo_terms.jpg' width=300></div>
+[source of image: http://slideplayer.com/slide/4814436/]
 
 ## Methods
 - Quantile Normalization [[wiki](https://en.wikipedia.org/wiki/Quantile_normalization)] [[machinelearning.ru](http://www.machinelearning.ru/wiki/index.php?title=Нормализация_ДНК-микрочипов)]
